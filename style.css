@@ -1,0 +1,30 @@
+.menu {
+    background-color: coral;
+    font-family: "Calibri", sans-serif;
+    color: bisque;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu a:visited {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+    padding-inline: 10%;
+}
+
+.menuiframe {
+    width: 100%;
+    border: none;
+    height: 200px;
+}
