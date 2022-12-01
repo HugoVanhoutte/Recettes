@@ -26,17 +26,31 @@ h1 {
     margin: 2px;
 }
 
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: coral;
+    border-radius: 20px ;
+    justify-content: space-around;
+
+}
+
 .menu li {
-    display: inline-block;
+    display: flex;
+    list-style: none;
     border: #752f0e 2px solid;
     border-radius: 20px;
-    margin-inline: 5%;
-    padding-inline: 5px;
     background-color: #f1a388;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    transition: background-color;
+    transition-duration: .5s;
 }
 
 .menu li:hover {
-    background-color: #f1b7a2;
+    background-color: #f5c8bb;
 }
 
 .menu li:active {
@@ -47,13 +61,9 @@ h1 {
     color: brown;
     font-size: 25px;
     text-decoration: none;
+    text-align: center;
 }
 
-.menu ul {
-    background-color: coral;
-    text-align: center;
-    border-radius: 20px ;
-}
 
 .recette {
     display: inline-block;
@@ -82,4 +92,11 @@ h1 {
 .recette p {
     font-size: large;
     text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    .menu ul {
+
+}
 }
