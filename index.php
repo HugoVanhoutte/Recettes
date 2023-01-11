@@ -11,7 +11,9 @@
       <h1>Accueil</h1>
     </div>
     <div>
-      <iframe src="menu.html" class="menuiframe" title="menu">Menu</iframe>
+        <?php
+        require $_SERVER['DOCUMENT_ROOT'] . "./menu.php"
+        ?>
     </div>
   </header>
   </body>
