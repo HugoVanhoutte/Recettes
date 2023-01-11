@@ -21,7 +21,8 @@
 
 
       <article class="recette">
-        <a href="index.php" title="Recette des Lasagnes">Lasagnes</a>
+        <a href="index.php" title="Recette
+         des Lasagnes">Lasagnes</a>
         <div class="imagemini">
           <img src="images/lasagnes-bolognaise.webp" alt="photo lasagnes">
         </div>
